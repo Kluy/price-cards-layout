@@ -1,4 +1,4 @@
-<h1>Price-cards-layout</h1>
+<h1>Price cards layout</h1>
 
 <h2><a href="https://kluy.github.io/price-cards-layout/index.html">Site link</a></h2>
 
