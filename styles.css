@@ -68,26 +68,18 @@
     padding: 0 22px;
     content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png); }
 
-html {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #f2f2f2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; }
-
 * {
   box-sizing: border-box; }
 
-h1,
-p {
-  margin: 0; }
-
-ul {
-  list-style: none;
-  padding: 0; }
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  height: 100vh; }
 
 .page {
+  margin: auto;
   width: 1440px;
   padding: 115px 132px;
   background-color: #141b1c;
