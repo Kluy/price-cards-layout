@@ -1,16 +1,16 @@
 .price-card {
-  color: white;
   width: 380px;
   height: 770px;
+  text-align: center;
   background-color: $grey;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  text-align: center;
+  color: $white;
   &__header {
     padding: 33px 0;
   }
   &__title {
-    font-weight: 700;
     font-size: 35px;
+    font-weight: 700;
     line-height: 43px;
   }
   &__subtitle {
@@ -19,8 +19,8 @@
   }
   &__price {
     height: 105px;
-    font-weight: 700;
     font-size: 55px;
+    font-weight: 700;
     line-height: 105px;
     text-align: center;
     vertical-align: middle;
@@ -33,29 +33,29 @@
     }
   }
   &__description {
-    font-weight: 300;
+    padding: 40px 26px;
     font-size: 15px;
+    font-weight: 300;
     line-height: 18px;
     text-align: center;
-    padding: 40px 26px;
   }
   &__options-list {
-    text-align: left;
-    font-weight: 300;
     font-size: 15px;
+    font-weight: 300;
     line-height: 18px;
+    text-align: left;
   }
   &__order-button {
-    color: white;
+    margin: 39px 0 40px 0;
     width: 154px;
     height: 40px;
-    background-color: $green;
-    text-transform: uppercase;
-    border-radius: 20px;
+    color: $white;
     border: none;
-    font-weight: 400;
+    border-radius: 20px;
+    background-color: $green;
     font-size: 14px;
-    margin: 39px 0 40px 0;
+    font-weight: 400;
+    text-transform: uppercase;
     &_blue {
       background-color: $blue;
     }
